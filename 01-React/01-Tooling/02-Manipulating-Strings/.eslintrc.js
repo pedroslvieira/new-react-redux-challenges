@@ -18,5 +18,5 @@ module.exports = {
     "quotes": "off",
     "arrow-body-style": 0,
     "space-before-function-paren": 0
-  },
+  }
 };
