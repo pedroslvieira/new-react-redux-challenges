@@ -13,5 +13,10 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "quotes": "off",
+    "arrow-body-style": 0,
+    "space-before-function-paren": 0
   },
 };
