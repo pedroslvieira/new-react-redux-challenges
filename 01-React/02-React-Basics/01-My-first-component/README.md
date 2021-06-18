@@ -32,11 +32,11 @@ Code your solution in `lib/01_article.jsx` and test it with `yarn test`!
 Some time ago eslint has added extra questions on the setup of this package to tackle more specific cases. To have this working correctly on your computer, you need to have the `SublimeLinter` and `ESLint` packages installed in your code editor.
 
 For Sublime:
-You can check by opening the command palette on sublime by typing (`cmnd` + `shift` + `p`).
-As soon as you see the search bar pop up, you can then type in `Package Control: List Packages`. This will open up a list of all the packages that you have currently installed. Arrow through to make sure that you have the two packages listed above. If you don't have them, you can close that menu by pressing `esc`, and once again open the command palette (`cmnd` + `shift` + `p`). This time you are going to type `Package Control: Install Package` and press enter. After that, type in the name of one of the packages and click it. Repeat the process for the second one and then make sure you restart your sublime (`cmnd` + `q`).
+You can check by opening the command palette on sublime by typing (`cmd` + `shift` + `p`).
+As soon as you see the search bar pop up, you can then type in `Package Control: List Packages`. This will open up a list of all the packages that you have currently installed. Arrow through to make sure that you have the two packages listed above. If you don't have them, you can close that menu by pressing `esc`, and once again open the command palette (`cmd` + `shift` + `p`). This time you are going to type `Package Control: Install Package` and press enter. After that, type in the name of one of the packages and click it. Repeat the process for the second one and then make sure you restart your sublime (`cmd` + `q`).
 
 For VS Code:
-Click on the Extension Marketplace. Search for the two packages listed above to see if you’ve already installed them. If not, click the button to install. Repeat for both packages. Make sure to restart (`cmnd` + `q`) after both have been installed.
+Click on the Extension Marketplace. Search for the two packages listed above to see if you’ve already installed them. If not, click the button to install. Repeat for both packages. Make sure to restart (`cmd` + `q`) after both have been installed.
 
 Now we are ready to initialize `eslint`.
 
