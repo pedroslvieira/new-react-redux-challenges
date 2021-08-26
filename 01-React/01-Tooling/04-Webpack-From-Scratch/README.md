@@ -45,7 +45,7 @@ Go to your terminal and type
 eslint --init
 ```
 
-You will realize that the questions prompted by eslint are now different than the ones showed in the lecture. Since by this point we are just doing a warmup/refreshner on JavaScript, we will answer them this way.
+The questions prompted by eslint are now different from the ones showed in the lecture, here is what we recommend 👇
 
 1. ? How would you like to use ESLint? (Use arrow keys)
 - ❯ To check syntax, find problems, and enforce code style
@@ -69,11 +69,11 @@ You will realize that the questions prompted by eslint are now different than th
 - ❯ JavaScript
 
 8. ? Would you like to install them now with npm? (Y/n)
-- ❯ Type the `n` key. (This happens since the eslint installer doesn't looks for this packages in the `yarn.lock` but in it's `npm` counter part). You can press `n` safely since we already have them.
+- ❯ Type the `n` key. -- We use `yarn` as a package manager, not `npm` 👌 
 
-And finally if everything went right, you should have gotten this message.
+And finally if everything went right, you should see this message:
 ```bash
-Successfully created .eslintrc.js file in /Users/<user_name>/code/<your_github_user_name>/react-redux-challenges/01-React/01-Tooling/02-Manipulating-Strings
+Successfully created .eslintrc.js file in /Users/<user_name>/code/<your_github_user_name>/react-redux-challenges/01-React/01-Tooling/04-Webpack-From-Scratch
 ```
 
 To tweak the ESlint rules to your own taste, you can open the `.eslintrc.json`. Here is a configuration we like:
