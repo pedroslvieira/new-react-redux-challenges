@@ -56,7 +56,7 @@ The questions prompted by eslint are now different from the ones showed in the l
 3. ? Which framework does your project use? (Use arrow keys)
 - ❯ None of these -- We are not in react yet 😉
 
-4. ? Where does your code run? (Press <space> to select, <a> to toggle all, <i> to invert selection)
+4. ? Where does your code run? (Press `<space>` to select, `<a>` to toggle all, `<i>` to invert selection)
 - ❯ Node -- We will jump to the browser in the next challenge, but for now we are going to select the `node` option.
 
 5. ? How would you like to define a style for your project? (Use arrow keys)
@@ -72,6 +72,7 @@ The questions prompted by eslint are now different from the ones showed in the l
 - ❯ Type the `n` key. -- We use `yarn` as a package manager, not `npm` 👌 
 
 And finally if everything went right, you should see this message:
+
 ```bash
 Successfully created .eslintrc.js file in /Users/<user_name>/code/<your_github_user_name>/react-redux-challenges/01-React/01-Tooling/04-Webpack-From-Scratch
 ```
