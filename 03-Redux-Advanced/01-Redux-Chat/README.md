@@ -191,7 +191,7 @@ In the `<MessageList />`, implement an interval in the `componentDidMount()` met
 
 When you get too many messages, the list does not auto scroll to the bottom. That's quite annoying. To fix that, we can use the `scrollHeight` property of the message list DOM element, and set it to the `scrollTop` property.
 
-The problem is: how do I get the DOM element from within a React component? [That's how you do it](https://facebook.github.io/react/docs/refs-and-the-dom.html#adding-a-ref-to-a-dom-element).
+The problem is: how do I get the DOM element from within a React component? [That's how you do it](https://5abc31d8be40f1556f06c4be--reactjs.netlify.app/docs/refs-and-the-dom.html#adding-a-ref-to-a-dom-element).
 
 Where should you set the `scrollTop`? Look at the [component lifecycle methods](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle) and choose wisely.
 
