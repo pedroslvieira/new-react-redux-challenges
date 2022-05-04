@@ -1,5 +1,1 @@
-function alert(message) {
-  console.log(message);
-}
-
-alert('Hello world');
+document.body.innerHTML = 'Hello world';
